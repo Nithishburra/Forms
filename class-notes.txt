@@ -1,0 +1,81 @@
+Forms/WEB Forms 2.0
+*******************
+
+1) from HTML5 onwards forms are called as "Web Forms 2.x"
+ 
+2) Web Forms 2.x contains more Features than HTML4.0
+
+3) That is 1) Validation Support. 2)markUp Elements Features Enchancements.
+
+Ex.
+
+
+<input>                                                <input>
+
+HTML4.x                                                 HTML5.x
+*******                                                 ********
+
+type = "text"                             **the HTML4.x features also there in HTML5.x now but some new features added they are listed below.**
+                                          ******************************************************************************************************
+type = "Password"                          type = "Datetime"
+
+type = "checkbox"                          type = "Datetime-local"
+
+type = "radio"                             type = "Date"
+
+type = "button"                            type = "month"
+
+type = "textarea"                          type = "week"
+
+type = "file"                              type = "time"
+
+type = "image"                             type = "number"
+
+type = "hidden"                            type = "Range"
+
+type = "submit"                             type = "Url"
+                                          
+                                           type = "email"
+
+                                           type = "tel"
+
+                                           type = "color"
+
+                                           type = "search"
+                                      
+                                            --------------
+
+                                            --------------
+
+                                            ---------------
+
+                                            ---------------
+
+
+1) <form></form>Tag is Used to create Forms.
+
+Attributes.
+**********
+
+ Method = "GET"
+
+ Method = "Post"
+
+ Method = "Put"
+
+ action = "/endpoint"
+
+ Ex.
+
+ <form action = "http://localhost:8080/login" Method = "Post">
+
+ </form>
+ ********
+
+
+
+
+
+
+
+
