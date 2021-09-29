@@ -1,0 +1,108 @@
+<!--
+    Range
+    *****
+    min
+    max
+    step
+    value
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web forms 2.0</title>
+    </head>
+    <body>
+
+        <form oninput = "result.value=parseInt(my_range.value)+parseInt(my_number.value)">
+            <input type="range"
+                         min="0"
+                         max="100"
+                         step="10"
+                         value="50"
+                         id="my_range">
+
+            <input type="number"
+                     value="50"
+                     id="my_number">=
+            <output id="result">60</output>
+        </form>
+
+        <form action="/test" method="POST">
+      
+            <!--
+                range
+                *****
+            -->
+
+            <input type ="range" min="0" max="100" step="10" value="60" id="my_range">
+            <label>Volume</label>
+              <br><br>
+
+             <!--
+                 color
+                 ******
+                 type="color"
+                 value="red"
+             -->
+
+             <input type="color" value="#ff0000">
+             <label>Color</label>
+             <br><br>
+
+            <!--
+                 date
+                 ****
+                 type="date"
+                 value="yyy-mm-dd"
+                 min=""
+                 max=""
+            -->
+
+            <input type="date" value="2021-09-29" min="2021-01-01" max="2021-12-31">
+            <br><br>
+
+
+
+          <!--
+              datetime-local
+              **************
+
+              type="datetime-local"
+              value="2021-09-29T04:56"
+              min="2021-09-29T00:00"
+              max="2021-09-30T00:00"
+          -->
+
+          <input type="datetime-local" value="2021-09-29T05:00" min="2021-09-30T06:30" max="2021-10-30T10:20">
+          <br><br>
+
+          <input type="time" value="05:10">
+          <br><br>
+
+
+          <input type="email" pattern=".+@ashokit\.in" required size="20">
+          <br><br>
+
+          <input type="file" accept="image/png,image/jpeg">
+          <br><br>
+
+
+          <input type="search" placeholder="search">
+          <br><br>
+
+          <input type="url" pattern="https://.*" placeholder="http://ashokit.in" size="20">
+          <br><br>
+
+          <input type="week" value="" min="2021-w18" max="2021-w30">
+          <br><br>
+
+
+          <input type="image" src="download.png" width="200px">
+          <br><br>
+
+          <input type="hidden" value="ashokit">
+          <br><br>
+
+        </form>
+    </body>
+</html>
